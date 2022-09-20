@@ -1,9 +1,20 @@
-# Midwestern TypeScript Style Guide() {
+# Midwestern TypeScript Style Guide
+
+_A mostly reasonable approach to TypeScript_
+
+![status](https://img.shields.io/badge/status-WIP-red)
+![license](https://img.shields.io/badge/license-MIT-blue)
 
 ## Table of Contents
 
+- [Contributing](#contributing)
+- [License](#license)
+
+## Contributing
+
 ## License
 
+```text
 MIT License
 
 Copyright (c) 2022 Midwestern Interactive
@@ -25,7 +36,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-**[back to top](#table-of-contents)**
-
-# };
+```
