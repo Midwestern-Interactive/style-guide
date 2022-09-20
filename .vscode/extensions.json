@@ -15,8 +15,10 @@
     "esbenp.prettier-vscode",
     "exodiusstudios.comment-anchors",
     "foxundermoon.shell-format",
+    "jock.svg",
     "streetsidesoftware.code-spell-checker",
-    "usernamehw.errorlens"
+    "usernamehw.errorlens",
+    "yzhang.markdown-all-in-one"
   ],
   "unwantedRecommendations": [
     "dbaeumer.jshint",
