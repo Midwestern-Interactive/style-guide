@@ -1,4 +1,3 @@
 {
-  "extends": "./configs/tsconfig.base",
-  "exclude": ["node_modules", "dist"]
+  "extends": "./configs/tsconfig.base"
 }
