@@ -35,13 +35,26 @@
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  // Mardown
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.extension.toc.omittedFromToc": {
+    "README.md": ["## Table of Contents"],
+    "react/README.md": ["## Table of Contents"]
+  },
+  "markdownlint.customRules": [
+    "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
+  ],
+  "markdownlint.config": {
+    "MD036": false
+  },
   // Code Spell Checker
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en_US, lorem",
   "cSpell.words": ["commitlintrc", "lintstagedrc", "npmrc", "parens"],
   // Language Based Settings
   "[dotenv]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "dotenv.dotenv-vscode"
   },
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -51,5 +64,8 @@
   },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
   }
 }
