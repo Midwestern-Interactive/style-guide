@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    "bierner.emojisense",
+    "bierner.markdown-checkbox",
+    "bierner.markdown-emoji",
+    "bierner.markdown-preview-github-styles",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "docsmsft.docs-article-templates",
+    "docsmsft.docs-images",
+    "docsmsft.docs-linting",
+    "docsmsft.docs-markdown",
+    "dotenv.dotenv-vscode",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "exodiusstudios.comment-anchors",
+    "foxundermoon.shell-format",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens"
+  ],
+  "unwantedRecommendations": [
+    "dbaeumer.jshint",
+    "docsmsft.docs-authoring-pack",
+    "docsmsft.docs-preview"
+  ]
+}

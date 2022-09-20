@@ -1,0 +1,11 @@
+// Command Palette: > Preferences: Open Keyboard Shortcuts (JSON)
+[
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.sortLinesAscending"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.sortLinesDescending"
+  }
+]
