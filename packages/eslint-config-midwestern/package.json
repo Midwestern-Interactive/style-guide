@@ -1,8 +1,0 @@
-{
-  "name": "eslint-config-midwestern",
-  "version": "1.0.0",
-  "description": "Midwestern's ESLint config, following our styleguide",
-  "main": "index.js",
-  "author": "Christian Garrison (https://twitter.com/cgarrison_mwi)",
-  "license": "MIT"
-}
