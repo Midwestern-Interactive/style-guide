@@ -2,7 +2,7 @@
   "name": "typescript",
   "version": "1.0.0",
   "description": "Mostly reasonable approach to TypeScript",
-  "author": "Christian Garrison (https://twitter.com/cgarrison_mwi)",
+  "author": "Midwestern Interactive",
   "license": "MIT",
   "workspaces": [
     "packages/*"
