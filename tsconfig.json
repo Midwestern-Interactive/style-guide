@@ -1,3 +1,4 @@
 {
-  "extends": "./configs/tsconfig.cjs"
+  "extends": "./configs/tsconfig.cjs",
+  "exclude": ["docs"]
 }

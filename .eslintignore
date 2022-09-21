@@ -10,6 +10,9 @@
 /build
 /dist
 
+# docs
+/docs
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

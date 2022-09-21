@@ -1,6 +1,7 @@
 {
   "name": "typescript",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "private": true,
   "description": "Mostly reasonable approach to TypeScript",
   "author": "Midwestern Interactive",
   "license": "MIT",
@@ -9,6 +10,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "start:docs": "cd docs && yarn start",
     "clean": "lerna clean --yes && rimraf node_modules",
     "format": "prettier --ignore-unknown --write .",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
