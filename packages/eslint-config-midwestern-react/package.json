@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-midwestern-react",
+  "name": "@midwestern/eslint-config-midwestern-react",
   "version": "0.0.0",
   "description": "Midwestern's TypeScript ESLint config for React, following our styleguide",
   "main": "index.js",
