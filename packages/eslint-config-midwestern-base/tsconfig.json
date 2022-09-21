@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../configs/tsconfig.cjs",
   "compilerOptions": {
     "rootDir": ".",
     "outDir": "dist",
@@ -7,5 +7,6 @@
     "paths": {
       "@midwestern/eslint-config-base": ["./src"]
     }
-  }
+  },
+  "include": ["src/**/*"]
 }

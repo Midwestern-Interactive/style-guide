@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
+    "checkJs": true,
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
@@ -11,16 +13,12 @@
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "isolatedModules": true,
-    "jsx": "preserve",
-    "lib": ["esnext"],
-    "module": "commonjs",
-    "moduleResolution": "node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "pretty": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": true
     // strict enables the following:
     // "alwaysStrict": true,
     // "noImplicitAny": true,
@@ -30,7 +28,6 @@
     // "strictNullChecks": true,
     // "strictPropertyInitialization": true,
     // "useUnknownInCatchVariables": true,
-    "target": "esnext"
   },
   "exclude": ["node_modules"]
 }
