@@ -1,6 +1,4 @@
-# Midwestern TypeScript Style Guide
-
-_A mostly reasonable approach to TypeScript_
+# Midwestern Interactive TypeScript Guides
 
 ![status](https://img.shields.io/badge/status-WIP-red)
 ![license](https://img.shields.io/badge/license-MIT-blue)
