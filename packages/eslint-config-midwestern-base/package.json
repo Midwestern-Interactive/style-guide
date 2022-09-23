@@ -4,5 +4,26 @@
   "description": "Midwestern's base TypeScript ESLint config, following our styleguide",
   "main": "index.js",
   "author": "Christian Garrison (https://twitter.com/cgarrison_mwi)",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "midwestern",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Midwestern-Interactive/typescript.git",
+    "directory": "packages/eslint-config-midwestern-base"
+  },
+  "bugs": {
+    "url": "https://github.com/Midwestern-Interactive/typescript"
+  },
+  "homepage": "https://github.com/Midwestern-Interactive/typescript/tree/master/packages/eslint-config-midwestern-base#readme"
 }
