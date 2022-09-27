@@ -1,16 +1,17 @@
 {
-  "name": "@midwestern/eslint-config-midwestern-base",
+  "name": "@midwestern/eslint-config-midwestern",
   "version": "0.0.0",
+  "main": "dist/index.js",
   "description": "Midwestern's base TypeScript ESLint config, following our styleguide",
+  "author": "Christian Garrison (https://twitter.com/cgarrison_mwi)",
+  "license": "MIT",
+  "homepage": "https://github.com/Midwestern-Interactive/typescript/tree/master/packages/eslint-config-midwestern#readme",
   "keywords": [
     "eslint",
     "eslintconfig",
     "midwestern",
     "typescript"
   ],
-  "main": "dist/index.js",
-  "author": "Christian Garrison (https://twitter.com/cgarrison_mwi)",
-  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
@@ -19,7 +20,6 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
@@ -30,14 +30,12 @@
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
   },
-  "peerDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/Midwestern-Interactive/typescript.git",
-    "directory": "packages/eslint-config-midwestern-base"
+    "directory": "packages/eslint-config-midwestern"
   },
   "bugs": {
     "url": "https://github.com/Midwestern-Interactive/typescript"
-  },
-  "homepage": "https://github.com/Midwestern-Interactive/typescript/tree/master/packages/eslint-config-midwestern-base#readme"
+  }
 }
