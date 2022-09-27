@@ -1,9 +1,11 @@
 {
-  "extends": "../../configs/tsconfig.cjs.json",
   "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "dist"
+    "lib": ["es6", "dom"],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "declarationDir": "lib/types"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*"]
 }

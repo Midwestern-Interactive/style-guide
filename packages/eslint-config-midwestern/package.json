@@ -1,11 +1,17 @@
 {
   "name": "@midwestern/eslint-config-midwestern",
   "version": "0.0.0",
-  "main": "dist/index.js",
   "description": "Midwestern's base TypeScript ESLint config, following our styleguide",
   "author": "Christian Garrison (https://twitter.com/cgarrison_mwi)",
   "license": "MIT",
-  "homepage": "https://github.com/Midwestern-Interactive/typescript/tree/master/packages/eslint-config-midwestern#readme",
+  "types": "lib/types/index.d.ts",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib/**/*"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -15,12 +21,14 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
+    "clean": "rimraf lib",
     "lint": "eslint \"src/**/*.{ts}\"",
     "lint:fix": "eslint \"src/**/*.{ts}\" --fix",
     "test": "jest",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "eslint": "^8.23.1",
@@ -30,9 +38,14 @@
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
   },
+  "peerDependencies": {
+    "eslint": "^8.23.1",
+    "prettier": "^2.7.1",
+    "typescript": ">=4.8.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Midwestern-Interactive/typescript.git",
+    "url": "git+https://github.com/Midwestern-Interactive/typescript.git",
     "directory": "packages/eslint-config-midwestern"
   },
   "bugs": {
