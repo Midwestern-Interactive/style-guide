@@ -2,11 +2,22 @@
   "name": "@midwestern/eslint-config-midwestern-base",
   "version": "0.0.0",
   "description": "Midwestern's base TypeScript ESLint config, following our styleguide",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "midwestern",
+    "typescript"
+  ],
   "main": "dist/index.js",
   "author": "Christian Garrison (https://twitter.com/cgarrison_mwi)",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "eslint \"src/**/*.{ts}\"",
+    "lint:fix": "eslint \"src/**/*.{ts}\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {},
   "devDependencies": {
@@ -19,18 +30,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
   },
-  "peerDependencies": {
-    "eslint": ">=8.23.1",
-    "eslint-plugin-import": ">=2.26.0",
-    "eslint-plugin-prettier": ">=4.2.1",
-    "prettier": ">=2.7.1"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "midwestern",
-    "typescript"
-  ],
+  "peerDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/Midwestern-Interactive/typescript.git",

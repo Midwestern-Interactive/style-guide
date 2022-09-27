@@ -2,11 +2,7 @@
   "extends": "../../configs/tsconfig.cjs",
   "compilerOptions": {
     "rootDir": ".",
-    "outDir": "dist",
-    "baseUrl": ".",
-    "paths": {
-      "@midwestern/eslint-config-base": ["./src"]
-    }
+    "outDir": "dist"
   },
-  "include": ["src/**/*"]
+  "include": ["src"]
 }
