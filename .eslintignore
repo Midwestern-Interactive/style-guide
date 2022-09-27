@@ -7,11 +7,10 @@ node_modules
 coverage
 
 # production
-build
 dist
 
 # docs
-/docs
+docs
 
 # typescript
 *.tsbuildinfo
