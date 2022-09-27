@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "allowJs": true,
+    "allowJs": false,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "checkJs": true,
+    "checkJs": false,
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
