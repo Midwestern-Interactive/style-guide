@@ -6,8 +6,7 @@
   "author": "Midwestern Interactive",
   "license": "MIT",
   "workspaces": [
-    "packages/*",
-    "docs"
+    "packages/*"
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
@@ -17,7 +16,7 @@
     "lint": "eslint \"**/*.{js,jsx,ts,tsx,mjs}\"",
     "lint:fix": "eslint --fix \"**/*.{js,jsx,ts,tsx,mjs}\"",
     "postinstall": "husky install",
-    "start:docs": "yarn workspace docs start",
+    "start:docs": "cd docs && yarn start",
     "test": "lerna run test"
   },
   "devDependencies": {
