@@ -51,7 +51,14 @@
   // Code Spell Checker
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en_US, lorem",
-  "cSpell.words": ["clsx", "commitlintrc", "lintstagedrc", "npmrc", "parens"],
+  "cSpell.words": [
+    "clsx",
+    "commitlintrc",
+    "lintstagedrc",
+    "npmrc",
+    "parens",
+    "tsbuildinfo"
+  ],
   // Language Based Settings
   "[dotenv]": {
     "editor.defaultFormatter": "dotenv.dotenv-vscode"
