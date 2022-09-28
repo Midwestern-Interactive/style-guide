@@ -1,4 +1,5 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "lib": ["es6", "dom"],
     "target": "es6",
@@ -7,5 +8,6 @@
     "outDir": "lib",
     "declarationDir": "lib/types"
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "lib", "src/**/*.test.ts"]
 }
