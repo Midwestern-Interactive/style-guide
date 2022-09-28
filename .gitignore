@@ -6,6 +6,11 @@ node_modules
 # testing
 coverage
 
+# production
+build
+dist
+out
+
 # misc
 .DS_Store
 *.pem
@@ -19,6 +24,11 @@ lerna-debug.log*
 # local env files
 .env*.local
 
+# vercel
+.vercel
+.turbo
+.next
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
@@ -26,4 +36,5 @@ next-env.d.ts
 # lock files
 package-lock.json
 yarn.lock
-!docs/yarn.lock
+!apps/*/package-lock.json
+!apps/*/yarn.lock
