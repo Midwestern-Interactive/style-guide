@@ -1,13 +1,9 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "tsconfig/commonjs.json",
   "compilerOptions": {
-    "lib": ["es6", "dom"],
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "outDir": "lib",
-    "declarationDir": "lib/types"
+    "allowJs": true,
+    "checkJs": false
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "lib", "src/**/*.test.ts"]
+  "include": ["index.js"],
+  "exclude": ["node_modules"]
 }

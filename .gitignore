@@ -2,14 +2,19 @@
 
 # dependencies
 node_modules
+.pnp
+.pnp.js
 
 # testing
 coverage
 
-# production
+# next.js
+.next/
+out/
 build
+
+# production
 dist
-out
 
 # misc
 .DS_Store
@@ -24,17 +29,12 @@ lerna-debug.log*
 # local env files
 .env*.local
 
+# turbo
+.turbo
+
 # vercel
 .vercel
-.turbo
-.next
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# lock files
-package-lock.json
-yarn.lock
-!apps/*/package-lock.json
-!apps/*/yarn.lock

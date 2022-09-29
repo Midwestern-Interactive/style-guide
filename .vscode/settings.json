@@ -55,9 +55,11 @@
     "clsx",
     "commitlintrc",
     "lintstagedrc",
+    "nextjs",
     "npmrc",
     "parens",
-    "tsbuildinfo"
+    "tsbuildinfo",
+    "tsup"
   ],
   // Language Based Settings
   "[dotenv]": {

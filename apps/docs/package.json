@@ -1,9 +1,7 @@
 {
-  "name": "@midwestern/typescript-docs",
+  "name": "@midwestern/docs",
   "version": "0.0.0",
   "private": true,
-  "description": "Midwestern's TypeScript Documentation Website",
-  "author": "Midwestern Interactive",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -14,6 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
+    "clean": "rimraf node_modules .docusaurus",
     "typecheck": "tsc"
   },
   "dependencies": {

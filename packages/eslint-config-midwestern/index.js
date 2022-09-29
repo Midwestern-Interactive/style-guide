@@ -1,12 +1,7 @@
-/**
- * @fileoverview Midwestern's Base TypeScript ESLint Configuration
- * @author Midwestern Interactive
- */
+// @rushstack/eslint-patch is a patch that improves how ESLint loads plugins
+require('@rushstack/eslint-patch/modern-module-resolution');
 
-// @rushstack/eslint-patch a patch that improves how ESLint loads plugins
-import '@rushstack/eslint-patch/modern-module-resolution';
-
-const config = {
+module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
@@ -17,7 +12,8 @@ const config = {
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 'latest',
+    tsconfigRootDir: __dirname,
+    project: './tsconfig.json',
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'import', 'prettier'],
@@ -35,5 +31,3 @@ const config = {
     },
   },
 };
-
-export default config;

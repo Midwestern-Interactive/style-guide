@@ -1,16 +1,26 @@
-# See https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories for more about ignoring files.
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 node_modules
+.pnp
+.pnp.js
 
 # testing
 coverage
 
+# next.js
+.next/
+out/
+build
+
 # production
 dist
 
-# docs
-docs
+# turbo
+.turbo
+
+# vercel
+.vercel
 
 # typescript
 *.tsbuildinfo
