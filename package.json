@@ -14,10 +14,13 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "docs": "pnpm -- turbo run start --filter=@midwestern/docs",
-    "clean": "turbo run clean && rimraf node_modules",
-    "format": "prettier --ignore-unknown --write .",
+    "clean:apps": "turbo run clean --filter=./apps/*",
+    "clean:packages": "turbo run clean --filter=./packages/*",
+    "clean": "pnpm clean:apps && pnpm clean:packages",
+    "format:web": "turbo run format --filter=./apps/docs",
+    "format": "prettier --write --ignore-unknown .",
     "postinstall": "husky install",
+    "start:docs": "turbo run dev --filter=./apps/docs",
     "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "dependencies": {
@@ -26,12 +29,13 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "eslint-config-turbo": "latest",
+    "@midwestern/eslint-config-nextjs": "workspace:*",
+    "@midwestern/tsconfig": "workspace:*",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "turbo": "^1.5.4",
+    "turbo": "^1.5.5",
     "typescript": "^4.5.2"
   },
   "engines": {

@@ -1,4 +1,9 @@
 {
   "root": true,
-  "extends": ["turbo"]
+  "extends": ["@midwestern/eslint-config-nextjs"],
+  "settings": {
+    "next": {
+      "rootDir": ["apps/*/"]
+    }
+  }
 }

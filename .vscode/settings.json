@@ -59,7 +59,8 @@
     "npmrc",
     "parens",
     "tsbuildinfo",
-    "tsup"
+    "tsup",
+    "turborepo"
   ],
   // Language Based Settings
   "[dotenv]": {

@@ -3,12 +3,19 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".docusaurus/**", ".next/**", "dist/**"]
+      "outputs": [".next/**", "dist/**", ".docusaurus/**"]
     },
     "clean": {
       "cache": false
     },
+    "deploy": {
+      "dependsOn": ["build", "test", "lint"],
+      "outputs": []
+    },
     "dev": {
+      "cache": false
+    },
+    "format": {
       "cache": false
     },
     "lint": {

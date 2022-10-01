@@ -5,7 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+module.exports = {
   title: 'TypeScript Guides',
   tagline: "Midwestern's TypeScript Documentation",
   url: 'https://localhost:3000',
@@ -120,5 +120,3 @@ const config = {
       },
     }),
 };
-
-module.exports = config;
