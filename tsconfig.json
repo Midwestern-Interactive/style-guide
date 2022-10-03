@@ -1,3 +1,9 @@
 {
-  "extends": "@midwestern/tsconfig/base.json"
+  "extends": "@midwestern/tsconfig/commonjs.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.js"],
+  "exclude": ["node_modules", "dist"]
 }

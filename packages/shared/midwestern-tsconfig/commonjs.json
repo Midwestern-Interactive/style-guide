@@ -3,10 +3,10 @@
   "display": "CommonJS",
   "extends": "./base.json",
   "compilerOptions": {
-    "lib": ["ES6", "DOM"],
-    "target": "ES6",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+    "lib": ["es6", "dom"],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "outDir": "dist",
     "declarationDir": "dist"
   }

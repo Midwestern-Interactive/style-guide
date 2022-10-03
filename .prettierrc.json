@@ -1,4 +1,5 @@
 {
+  "plugins": ["prettier-plugin-packagejson"],
   "arrowParens": "always",
   "bracketSameLine": false,
   "bracketSpacing": true,
@@ -19,7 +20,7 @@
   "useTabs": false,
   "overrides": [
     {
-      "files": ["*.jsx", "*.tsx"],
+      "files": ["*.json", "*.jsx", "*.tsx"],
       "options": {
         "printWidth": 100
       }
