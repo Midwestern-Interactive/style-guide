@@ -33,5 +33,6 @@
     "rimraf": "^3.0.2",
     "turbo": "latest",
     "typescript": "^4.8.4"
-  }
+  },
+  "packageManager": "yarn@1.22.19"
 }
