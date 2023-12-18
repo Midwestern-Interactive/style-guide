@@ -3,6 +3,7 @@
     "bierner.emojisense",
     "bierner.markdown-checkbox",
     "bierner.markdown-emoji",
+    "bierner.markdown-mermaid",
     "bierner.markdown-preview-github-styles",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
@@ -14,15 +15,13 @@
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "exodiusstudios.comment-anchors",
+    "formulahendry.auto-complete-tag",
     "foxundermoon.shell-format",
+    "github.vscode-github-actions",
     "jock.svg",
     "streetsidesoftware.code-spell-checker",
     "usernamehw.errorlens",
     "yzhang.markdown-all-in-one"
   ],
-  "unwantedRecommendations": [
-    "dbaeumer.jshint",
-    "docsmsft.docs-authoring-pack",
-    "docsmsft.docs-preview"
-  ]
+  "unwantedRecommendations": ["docsmsft.docs-authoring-pack", "docsmsft.docs-preview"]
 }

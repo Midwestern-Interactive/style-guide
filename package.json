@@ -1,38 +1,29 @@
 {
-  "name": "@midwestern/typescript",
+  "name": "@midwestern/style-guide",
   "private": true,
   "license": "MIT",
   "author": "Midwestern Interactive",
-  "workspaces": [
-    "packages/**"
-  ],
   "scripts": {
-    "build": "turbo run build",
-    "clean": "lerna clean --yes && rm -rf node_modules",
-    "dev": "turbo run dev --parallel",
-    "format": "prettier --write --ignore-unknown .",
-    "postinstall": "husky install && lerna bootstrap",
-    "lint": "turbo run lint",
-    "publish-packages": "turbo run build lint test && changeset version && changeset publish",
-    "test": "turbo run test"
+    "build": "turbo build",
+    "clean": "turbo clean && rm -rf node_modules",
+    "dev": "turbo dev",
+    "format": "prettier . --write --ignore-unknown --ignore-path .gitignore",
+    "lint": "turbo lint",
+    "prepare": "husky install",
+    "test": "turbo test"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@babel/eslint-parser": "^7.19.1",
-    "@changesets/cli": "^2.25.0",
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "@midwestern/eslint-config": "*",
-    "@midwestern/tsconfig": "*",
-    "eslint": "^8.24.0",
-    "husky": "^8.0.1",
-    "lerna": "^5.5.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "prettier-plugin-packagejson": "^2.3.0",
-    "rimraf": "^3.0.2",
-    "turbo": "latest",
-    "typescript": "^4.8.4"
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-packagejson": "^2.4.7",
+    "turbo": "latest"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  }
 }
